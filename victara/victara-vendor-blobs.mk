@@ -117,6 +117,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/motorola/victara/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/motorola/victara/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/motorola/victara/proprietary/app/com.qualcomm.location.apk:system/app/com.qualcomm.location.apk \
+    vendor/motorola/victara/proprietary/app/com.qualcomm.services.location.apk:system/app/com.qualcomm.services.location.apk \
+    vendor/motorola/victara/proprietary/app/MotGeoFenceSvc.apk:system/app/MotGeoFenceSvc.apk \
     vendor/motorola/victara/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/motorola/victara/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/motorola/victara/proprietary/etc/izat.conf:system/etc/izat.conf \
@@ -230,3 +233,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/etc/firmware/atmel-a432-14060302-0102aa-victara-p1.tdat:system/etc/firmware/atmel-a432-14060302-0102aa-victara-p1.tdat \
     vendor/motorola/victara/proprietary/etc/firmware/atmel-a432-14062301-0102aa-victara.tdat:system/etc/firmware/atmel-a432-14062301-0102aa-victara.tdat \
     vendor/motorola/victara/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/motorola/victara/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so
